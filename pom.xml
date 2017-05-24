@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.vgb</groupId>
+	<artifactId>gentrella-adminskin-webresource</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<name>gentrella adminskin-webresource Webresource Package</name>
+
+	<packaging>jar</packaging>
+
+	<build>
+		<plugins>
+		</plugins>
+	</build>
+
+	<repositories>
+		<repository>
+			<id>vgb-repo</id>
+			<name>VGB Maven Repository-releases</name>
+			<url>http://build.vgb-essen/artifactory/vgb-repo</url>
+		</repository>
+	</repositories>
+
+	<distributionManagement>
+		<repository>
+			<id>vgb-repo</id>
+			<name>VGB Maven Repository-releases</name>
+			<url>http://build.vgb-essen/artifactory/vgb-repo</url>
+		</repository>
+		<snapshotRepository>
+			<id>vgb-repo</id>
+			<name>VGB Maven Repository-snapshots</name>
+			<url>http://build.vgb-essen/artifactory/vgb-repo</url>
+		</snapshotRepository>
+	</distributionManagement>
+</project>
