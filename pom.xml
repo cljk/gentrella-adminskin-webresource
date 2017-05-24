@@ -16,24 +16,4 @@
 		</plugins>
 	</build>
 
-	<repositories>
-		<repository>
-			<id>vgb-repo</id>
-			<name>VGB Maven Repository-releases</name>
-			<url>http://build.vgb-essen/artifactory/vgb-repo</url>
-		</repository>
-	</repositories>
-
-	<distributionManagement>
-		<repository>
-			<id>vgb-repo</id>
-			<name>VGB Maven Repository-releases</name>
-			<url>http://build.vgb-essen/artifactory/vgb-repo</url>
-		</repository>
-		<snapshotRepository>
-			<id>vgb-repo</id>
-			<name>VGB Maven Repository-snapshots</name>
-			<url>http://build.vgb-essen/artifactory/vgb-repo</url>
-		</snapshotRepository>
-	</distributionManagement>
 </project>
